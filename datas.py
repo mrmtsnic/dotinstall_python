@@ -1,0 +1,20 @@
+# 文字列
+s = "he\nllo wor\tld"
+html = '''<html>
+<body></body>
+< / html > '''
+print(s)
+print(html)
+
+
+print("hello" + "world")
+print("hello"*3)
+
+
+name = "taguchi"
+score = 52.8
+
+print("name: %s, score: %f" % (name, score))
+print("name: %-10s, score: %10.2f" % (name, score))
+print("name: {0},score: {1}".format(name, score))
+print("name: {0:>10s},score: {1:<10.2f}".format(name, score))
